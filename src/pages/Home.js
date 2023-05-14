@@ -8,13 +8,13 @@ export default function Home() {
     <>
       <div
         ref={circleRef}
-        className={` circle-underlay-1 ${circleInView ? "circle-enter" : ""}`}
+        className={`circle-underlay-1 ${circleInView ? "circle-enter" : ""}`}
       ></div>
       <div
         className={`circle-underlay-2 ${circleInView ? "circle-enter" : ""}`}
       ></div>
       <img
-        className={` homepage-background-img ${
+        className={`homepage-background-img ${
           circleInView ? "main-img-enter" : ""
         }`}
         src={birdsBackgroundImg}
@@ -27,7 +27,7 @@ export default function Home() {
         <p>
           There are over 10,000 species of birds around the world, and many of
           them capture nature's most intense hues, dances, and songs. This
-          website showcases 4 alluring bird species that might not have ever
+          website showcases 4 alluring bird species that you might not have ever
           known before.
         </p>
       </div>

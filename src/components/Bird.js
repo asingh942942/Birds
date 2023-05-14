@@ -10,7 +10,6 @@ export default function Bird(props) {
   function shiftFunc() {
     setDescShift("shift-left");
     setFactsShift("shift");
-    console.log(this);
   }
 
   function unshiftFunc() {
