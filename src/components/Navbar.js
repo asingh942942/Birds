@@ -38,7 +38,7 @@ export default function Navbar() {
       >
         <ul>
           <li>
-            <a href="/bullfinch">Plush-Crested Jay</a>
+            <a href="/jay">Plush-Crested Jay</a>
           </li>
           <li>
             <a href="/macaw">Hyacinth Macaw</a>

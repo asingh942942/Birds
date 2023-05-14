@@ -1,6 +1,6 @@
 import "./App.css";
 import Home from "./pages/Home.js";
-import Bullfinch from "./pages/PlushCrestedJay";
+import PlushCrestedJay from "./pages/PlushCrestedJay";
 import HyacinthMacaw from "./pages/HyacinthMacaw";
 import SummerTanager from "./pages/SummerTanager";
 import RedSiskin from "./pages/RedSiskin";
@@ -14,7 +14,7 @@ export default function App() {
       <Navbar />
       <Routes>
         <Route path="/" element={<Home />} />
-        <Route path="/bullfinch" element={<Bullfinch />} />
+        <Route path="/jay" element={<PlushCrestedJay />} />
         <Route path="/macaw" element={<HyacinthMacaw />} />
         <Route path="/tanager" element={<SummerTanager />} />
         <Route path="/siskin" element={<RedSiskin />} />
