@@ -1,25 +1,25 @@
-import logo from './logo.svg';
-import './App.css';
+import "./App.css";
+import Home from "./pages/Home.js";
+import Bullfinch from "./pages/PlushCrestedJay";
+import HyacinthMacaw from "./pages/HyacinthMacaw";
+import SummerTanager from "./pages/SummerTanager";
+import RedSiskin from "./pages/RedSiskin";
+import Navbar from "./components/Navbar.js";
+import Footer from "./components/Footer.js";
+import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 
-function App() {
+export default function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Router>
+      <Navbar />
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/bullfinch" element={<Bullfinch />} />
+        <Route path="/macaw" element={<HyacinthMacaw />} />
+        <Route path="/tanager" element={<SummerTanager />} />
+        <Route path="/siskin" element={<RedSiskin />} />
+      </Routes>
+      <Footer />
+    </Router>
   );
 }
-
-export default App;
