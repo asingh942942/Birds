@@ -482,10 +482,6 @@ h3 {
     margin: 20px;
   }
 
-  .navigation-menu ul li:hover {
-    background-color: #eee;
-  }
-
   .shift-right {
     transform: translateX(280%);
   }
